@@ -9,6 +9,7 @@
 改进：
 通过在project.config.js设置当前开发页面(devPage)，从而在运行`npm run dev`命令后可以实时打开对应的页面开始开发
 原有教程中对于模块自动加载配置有问题，因此根据webpack最新文档对router项自动注入使用了新的写法。
+升级到webpack3，应用了新的作用域提升工具
 
 ## Build Setup
 
